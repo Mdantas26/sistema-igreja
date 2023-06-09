@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../imagens/fundo.jpg);
+    background-size: auto;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif, ;}
+input{
+    display: block;
+    height: 40px;
+    width: 380px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-size: 12pt;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.btn{
+    display:block;
+    height: 40px;
+    width: 160px;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.btn:hover{
+    background-color: #000921;
+    color: white;
+    border: 1px solid white;
+}
+#corpo-form{
+    width: 450px;
+    margin: 150px auto 0px auto;
+    text-align: center;
+    background-color: rgba(253, 253, 253, 0.342);
+    border-radius: 30px;
+    
+}
+#corpo-form h1{
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    color: #000921;
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+    
+}
