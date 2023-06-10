@@ -4,7 +4,9 @@
 }
 body{
     background-image: url(../imagens/fundo.jpg);
-    background-size: auto;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif, ;}
 input{
